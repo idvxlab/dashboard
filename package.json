@@ -2,6 +2,7 @@
   "name": "colorcook",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://idvxlab.github.io/dashboard",
   "dependencies": {
     "@ant-design/icons": "^4.0.6",
     "antd": "^3.20.3",
