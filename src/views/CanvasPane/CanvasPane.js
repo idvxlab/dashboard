@@ -895,9 +895,9 @@ export default class CanvasPane extends PureComponent {
              style={{backgroundColor: this.props.backgroundColor, color: this.props.textColor, width:'100%',marginTop:'40px', fontSize:'14px'}}></input>
           <div id="layoutStage" style={{ background: '#fff', padding: 20 }}>
             <ResponsiveReactGridLayout
-              style={{width:'800px',height:'528px',marginLeft:'70px',marginTop:'0px'}}
-              className="layout"
-         
+              style={{width:'800px',marginLeft:'70px',marginTop:'0px'}}
+              className="layout canvas-grid-layout"
+              // id='canvas-grid-layout'
               layouts={this.state.layouts}
               onLayoutChange={(layout, layouts) =>
                 this.onLayoutChange(layout, layouts)

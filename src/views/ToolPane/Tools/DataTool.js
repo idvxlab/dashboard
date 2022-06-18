@@ -220,7 +220,7 @@ export default class DataTool extends Component {
             overflowY:"hidden",overflowX: "hidden",
             display:'flex',flexDirection:'column',flex:'1'
             }}>
-                <div className='pane'>
+                <div className='pane' id='data-pane'>
                     <div className='header'>Data</div>
                     <div width={270} style={{ height: '140px',padding: '0px 10px 0px 10px' }} >
                         <Dragger

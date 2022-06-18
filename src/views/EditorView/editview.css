@@ -131,3 +131,12 @@
     margin-top: 3px;
     margin-right: 5px;
 }
+
+#canvas-ant-layout {
+    height: calc(100vh - 25px) ;
+}
+
+#canvas-pane {
+    height: calc(100vh - 73px) ;
+}
+

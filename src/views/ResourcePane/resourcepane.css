@@ -45,3 +45,7 @@
     overflow-y:auto;
     height:100%;
 }
+
+#chart-pane {
+    height: calc(100vh - 250px)
+}

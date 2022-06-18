@@ -109,3 +109,8 @@
     display: none;
 } */
 
+#data-pane {
+    height: calc(100vh - 250px)
+}
+
+

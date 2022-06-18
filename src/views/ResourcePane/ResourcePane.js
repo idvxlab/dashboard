@@ -16,7 +16,7 @@ export default class ResourcePane extends Component {
     return (
       
       <div className="card-container" style={{height:this.props.contentHeight+"px"}}>
-        <div className="pane" >
+        <div className="pane" id='chart-pane'>
             <ChartTab {...this.props} />
             <ChannelsTab {...this.props} />
         </div>

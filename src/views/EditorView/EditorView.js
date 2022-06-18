@@ -231,11 +231,11 @@ export default class EditorView extends Component {
                         </Layout>
                     </Sider>
                     <Content style={{ width: contentWidth}}>
-                        <Layout style={{ height: 730 }}>
+                        <Layout id='canvas-ant-layout' >
                             
 
                             <Content style={{ background: '#fff', height: 513+'px' }}>
-                                <div className='pane'>
+                                <div className='pane' id='canvas-pane'>
                                     <div className='header'>Canvas
                                         {/* <ShareAltOutlined /> */}
                                         

@@ -152,3 +152,7 @@ input{
   border: 0px solid #ececec;
 }
 
+.canvas-grid-layout {
+  height: calc(100vh - 234px) !important;
+}
+
