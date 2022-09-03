@@ -3,7 +3,7 @@ export default class ApiUtil {
     // static URL_IP = 'http://localhost:5000';
     // static URL_IP = 'http://10.11.50.52:5000';
     // static URL_IP = 'http://202.120.165.126:8001';
-    static URL_IP = 'https://202.120.165.126:8001'; 
+    static URL_IP = 'http://202.120.165.126:8001'; 
     static URL_ROOT = '/api/v1';
  
     static API_COLOR_SUGESSTION = ApiUtil.URL_IP + ApiUtil.URL_ROOT + '/colorSuggestion'; 
